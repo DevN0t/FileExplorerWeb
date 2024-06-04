@@ -1,0 +1,83 @@
+.file-explorer{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f3f3f3;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-wrapper{
+  width: 70%;
+  height: 70%;
+  display: flex;
+  background-color: white;
+  gap: 2rem;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.header{
+  width: calc(100% - 30px);
+  background-color: #d0d0d0;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.button{
+  background-color: #3d9f2d;
+  color: #ffffff;
+  border: 0px;
+  font-weight: bold;
+  font-size: 30px;
+  width: 40px;
+
+
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.list-wrapper{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 5rem;
+  justify-items: center;
+  align-items: center;
+}
+
+.image{
+  width: 100px;
+}
+
+.list-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+
+  width: fit-content;
+  justify-content: end;
+}
+
+.list-item-inside{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+}
+
+.list-item:hover{
+  background-color: #d0d0d0;
+  border-radius: 10px;
+}
+
+
